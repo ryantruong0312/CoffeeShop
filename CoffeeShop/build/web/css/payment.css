@@ -1,0 +1,44 @@
+body{
+    font-family: 'Space Mono', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    background-color: #ffffff;
+    background-image: url(../images/background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main{
+    background-color: #00b2ca;
+    padding: 20px;
+    width: 30%;
+    margin: 18vh auto;
+    border-radius: 25px;
+}
+h1{
+    text-align: center;
+    margin-top: 0;
+}
+.inform{
+    margin: 0 auto;
+}
+div.ok{
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid;
+    padding: 5px;
+    margin: 0 auto;
+    width: 60px;
+    border-radius: 25px;
+    color: #000;
+}
+.ok a,.ok a:visited{
+    text-decoration: none;
+    color: #000;
+}
+div.ok:hover{
+    background-color: #d3d3d3;
+    box-shadow: 0px 4px 35px -5px #4082f5;
+    cursor: pointer;
+    color: white;
+}

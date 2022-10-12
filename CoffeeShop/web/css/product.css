@@ -1,0 +1,78 @@
+body{
+    font-family: 'Space Mono', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    background-color: #ffffff;
+    background-image: url(../images/background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+img{
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 25px;
+}
+
+main{
+    margin-top: 14vh;
+}
+.product-base{
+    box-sizing: border-box;
+    width: 25%;
+    display: block;
+    float: left;
+    margin: 20px 0;
+}
+.product-detail{
+    background-color: #00b2ca;
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 25px;
+    color: #000;
+    padding: 20px 0;
+}
+h2{
+    margin: 5px;
+}
+a,a:visited{
+    color: #000;
+    text-decoration: none;
+}
+a:hover, a:visited:hover{
+    color: #fff;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  color: #000;
+}
+
+th, td{
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+th{
+    font-size: 20px;
+}
+
+table.tr:nth-child(even) {
+  background-color: #000;
+}
+input[type='number']{
+    width: 70px;
+} 
+.del-button{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 2px;
+}
+.del-button:hover{
+    color: #000;
+    background-color: #d3d3d3;
+}

@@ -1,0 +1,38 @@
+body{
+    font-family: 'Space Mono', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    background-color: #ffffff;
+    background-image: url(../images/background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+main{
+    background-color: #00b2ca;
+    padding: 20px;
+    width: 40%;
+    height: 500px;
+    margin: 18vh auto;
+    border-radius: 25px;
+}
+input[type='number']{
+    width: 70px;
+} 
+h1{
+    text-align: center;
+    margin-top: 0;
+}
+form.add-form{
+    box-sizing: border-box;
+    padding: 0 20%;
+}
+div.add-button,div.message{
+    text-align: center;
+    margin: 10px;
+    color: #000;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.error{
+    color: yellow;
+}
